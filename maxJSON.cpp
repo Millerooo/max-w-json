@@ -21,17 +21,17 @@ int main ()
         while(!plik.eof())
         {
             getline(plik, linia);
-            cout << linia << endl;//wyœwietlenie linii
+            cout << linia << endl;
         }
         plik.close();
-	}                   ////////////////////1111/1///1/1///
+	}                   
 	{
      SetConsoleTextAttribute( hOut, BACKGROUND_GREEN);
 	int max, tab[]={3, 5, 123, 2, 3, 4, 3, 2, 1, -1}; 
 	
-	max = tab[0]; //pierwsz¹ liczbê przypisujemy do zmiennej min
+	max = tab[0]; 
 	
-	for(int i=1;i<10;i++) //przeszukanie pozosta³ych 9 liczb
+	for(int i=1;i<10;i++) 
 		if(max<tab[i])
 		
 		
